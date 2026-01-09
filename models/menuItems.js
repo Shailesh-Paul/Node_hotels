@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 
+// creating schema of menuItem
+
 const menuItemSchema =new mongoose.Schema ({
     name:{
         type:String,
